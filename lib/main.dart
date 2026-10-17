@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:newproject/hobby.dart';
+import 'package:newproject/view/student_protal_view/student_home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: const HobbyScreen(),
+      debugShowCheckedModeBanner: false,
+      home: const StudentHomeScreen(),
     );
 
   }
